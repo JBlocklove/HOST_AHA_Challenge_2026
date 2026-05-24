@@ -15,21 +15,21 @@ The three potential targets are as follows:
 ### [secworks AES Core](https://github.com/secworks/aes)
 The advanced encryption standard (AES) is one of the most commonly used private-key encryption methods used today, and this is a commonly used open-source hardware implementation of it. Of the three potential designs to attack for this challenge it has the most obvious security implications, but is also the smallest. This should be taken into account when desigining Trojans, as they will need to be mae especially stealthy.
 
-PPA analysis scripts for this design can be found [here](./red-team_phase/aes_synth)
+PPA analysis scripts for this design can be found [here](./red-team-synth/aes_synth)
 
 ---
 
 ### [FreeCores Ethernet MAC](https://github.com/freecores/ethmac)
 This is an Ethernet 10/100 Media Access Controller (MAC) IP core from FreeCores/OpenCores. It fully implements the Layer 2 protocol of the ethernet standard.
 
-PPA analysis scripts for this design can be found [here](./red-team_phase/eth_synth/)
+PPA analysis scripts for this design can be found [here](./red-team-synth/eth_synth/)
 
 ---
 
 ### [openhwgroup cv32e40p RISC-V IP](https://github.com/openhwgroup/cv32e40p)
 This is a small 32-bit RISC-V core with a 4-stage pipeline. As this is a complete RISC-V processor, it is the most complex of the potential target designs for this challenge, but offers the most potential variety for Trojans.
 
-PPA analysis scripts for this design can be found [here](./red-team_phase/cv32e40p_synth/)
+PPA analysis scripts for this design can be found [here](./red-team-synth/cv32e40p_synth/)
 
 ---
 
